@@ -1,0 +1,1844 @@
+[
+    {
+        "index": "282",
+        "name": "PowerDefinition",
+        "nameHash": "14af0cb6",
+        "flags": "90"
+    },
+    {
+        "name": "szInternalName",
+        "nameHash": "012c58eb",
+        "type": "DT_CHARARRAY",
+        "typeHash": "81a89ad4",
+        "offset": "8",
+        "flags": "1",
+        "arrayLength": "64",
+        "encodedBits": "7"
+    },
+    {
+        "name": "bDefensive",
+        "nameHash": "0267315b",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "72",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0bd561bf",
+        "nameHash": "0bd561bf",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "76",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "gbidPrimaryTag",
+        "nameHash": "001be316",
+        "type": "DT_GBID",
+        "typeHash": "3d48a14d",
+        "offset": "80",
+        "flags": "1",
+        "encodedBits": "32",
+        "snotype": "56"
+    },
+    {
+        "name": "arSkillTags",
+        "nameHash": "0f140b61",
+        "type": "DT_VARIABLEARRAY",
+        "typeHash": "c166f35c",
+        "offset": "88",
+        "flags": "1",
+        "subtype": "DT_GBID",
+        "subtypeHash": "3d48a14d",
+        "encodedBits": "32",
+        "snotype": "56"
+    },
+    {
+        "name": "eSkillCat",
+        "nameHash": "07d4625c",
+        "type": "DT_ENUM",
+        "typeHash": "3d47bd2c",
+        "offset": "104",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "eType",
+        "nameHash": "0753cc47",
+        "type": "DT_ENUM",
+        "typeHash": "3d47bd2c",
+        "offset": "108",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "eCategory",
+        "nameHash": "0b18c7a3",
+        "type": "DT_ENUM",
+        "typeHash": "3d47bd2c",
+        "offset": "112",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "#02b4eb99",
+        "nameHash": "02b4eb99",
+        "type": "DT_ENUM",
+        "typeHash": "3d47bd2c",
+        "offset": "116",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "#09a3836e",
+        "nameHash": "09a3836e",
+        "type": "DT_ENUM",
+        "typeHash": "3d47bd2c",
+        "offset": "120",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "#049c0222",
+        "nameHash": "049c0222",
+        "type": "DT_ENUM",
+        "typeHash": "3d47bd2c",
+        "offset": "124",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "#01450715",
+        "nameHash": "01450715",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "128",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "bChannelled",
+        "nameHash": "0f3f3cf0",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "132",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#085472fb",
+        "nameHash": "085472fb",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "136",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0650bee9",
+        "nameHash": "0650bee9",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "140",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#03837f2a",
+        "nameHash": "03837f2a",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "144",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#06c6eb6b",
+        "nameHash": "06c6eb6b",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "148",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0c19db61",
+        "nameHash": "0c19db61",
+        "type": "DT_STRING_FORMULA",
+        "typeHash": "920cd243",
+        "offset": "152",
+        "flags": "1"
+    },
+    {
+        "name": "#09aad0d1",
+        "nameHash": "09aad0d1",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "184",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "bIsBasicAttack",
+        "nameHash": "07aab3b8",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "188",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "bIsPassive",
+        "nameHash": "0df3aa19",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "192",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#030531f7",
+        "nameHash": "030531f7",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "196",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#01229e8f",
+        "nameHash": "01229e8f",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "200",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#001f1fcc",
+        "nameHash": "001f1fcc",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "204",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "ePowerFallback",
+        "nameHash": "05d52382",
+        "type": "DT_ENUM",
+        "typeHash": "3d47bd2c",
+        "offset": "208",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "#049572b0",
+        "nameHash": "049572b0",
+        "type": "DT_ENUM",
+        "typeHash": "3d47bd2c",
+        "offset": "212",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "#0c989719",
+        "nameHash": "0c989719",
+        "type": "DT_ENUM",
+        "typeHash": "3d47bd2c",
+        "offset": "216",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "#0d8567e5",
+        "nameHash": "0d8567e5",
+        "type": "DT_VARIABLEARRAY",
+        "typeHash": "c166f35c",
+        "offset": "224",
+        "flags": "1",
+        "subtype": "DT_SNO",
+        "subtypeHash": "a4c45887",
+        "encodedBits": "32",
+        "snotype": "29"
+    },
+    {
+        "name": "#0d5c4ed2",
+        "nameHash": "0d5c4ed2",
+        "type": "DT_SNO",
+        "typeHash": "a4c45887",
+        "offset": "240",
+        "flags": "1",
+        "encodedBits": "32",
+        "snotype": "29"
+    },
+    {
+        "name": "#04d873ef",
+        "nameHash": "04d873ef",
+        "type": "DT_SNO",
+        "typeHash": "a4c45887",
+        "offset": "244",
+        "flags": "1",
+        "encodedBits": "32",
+        "snotype": "29"
+    },
+    {
+        "name": "#0fead6c5",
+        "nameHash": "0fead6c5",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "248",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0fca3b69",
+        "nameHash": "0fca3b69",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "252",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0000bf24",
+        "nameHash": "0000bf24",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "256",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#07ed23dd",
+        "nameHash": "07ed23dd",
+        "type": "DT_SNO",
+        "typeHash": "a4c45887",
+        "offset": "260",
+        "flags": "1",
+        "encodedBits": "32",
+        "snotype": "29"
+    },
+    {
+        "name": "#0f6cde9f",
+        "nameHash": "0f6cde9f",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "264",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#099e0ced",
+        "nameHash": "099e0ced",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "268",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0bb05442",
+        "nameHash": "0bb05442",
+        "type": "DT_ENUM",
+        "typeHash": "3d47bd2c",
+        "offset": "272",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "#003616d3",
+        "nameHash": "003616d3",
+        "type": "DT_ENUM",
+        "typeHash": "3d47bd2c",
+        "offset": "276",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "#041a3d22",
+        "nameHash": "041a3d22",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "280",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#02df4181",
+        "nameHash": "02df4181",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "284",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#091a127f",
+        "nameHash": "091a127f",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "288",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#09e108ae",
+        "nameHash": "09e108ae",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "292",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#048531b6",
+        "nameHash": "048531b6",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "296",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0723948e",
+        "nameHash": "0723948e",
+        "type": "DT_POLYMORPHIC_VARIABLEARRAY",
+        "typeHash": "645aae71",
+        "offset": "304",
+        "flags": "1",
+        "subtype": "#791899bb",
+        "subtypeHash": "791899bb"
+    },
+    {
+        "name": "#0fda753d",
+        "nameHash": "0fda753d",
+        "type": "DT_POLYMORPHIC_VARIABLEARRAY",
+        "typeHash": "645aae71",
+        "offset": "328",
+        "flags": "1",
+        "subtype": "#e24901c6",
+        "subtypeHash": "e24901c6"
+    },
+    {
+        "name": "arPhases",
+        "nameHash": "0e8e8557",
+        "type": "DT_POLYMORPHIC_VARIABLEARRAY",
+        "typeHash": "645aae71",
+        "offset": "352",
+        "flags": "1",
+        "subtype": "DT_INT64",
+        "subtypeHash": "e687bdac"
+    },
+    {
+        "name": "#092fea1c",
+        "nameHash": "092fea1c",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "376",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#08cdde38",
+        "nameHash": "08cdde38",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "380",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0df9a366",
+        "nameHash": "0df9a366",
+        "type": "DT_VARIABLEARRAY",
+        "typeHash": "c166f35c",
+        "offset": "384",
+        "flags": "1",
+        "subtype": "#5f5e88ad",
+        "subtypeHash": "5f5e88ad"
+    },
+    {
+        "name": "#04bf03ff",
+        "nameHash": "04bf03ff",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "400",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "tAttackSpeed",
+        "nameHash": "0169875d",
+        "type": "DT_STRING_FORMULA",
+        "typeHash": "920cd243",
+        "offset": "408",
+        "flags": "1"
+    },
+    {
+        "name": "#06deb090",
+        "nameHash": "06deb090",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "440",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0ed2bdad",
+        "nameHash": "0ed2bdad",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "444",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "eDamageType",
+        "nameHash": "0df8aec6",
+        "type": "DT_ENUM",
+        "typeHash": "3d47bd2c",
+        "offset": "448",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "#0752edeb",
+        "nameHash": "0752edeb",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "452",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "tCombatEffectChance",
+        "nameHash": "0623da19",
+        "type": "DT_STRING_FORMULA",
+        "typeHash": "920cd243",
+        "offset": "456",
+        "flags": "1"
+    },
+    {
+        "name": "#07cfb7ba",
+        "nameHash": "07cfb7ba",
+        "type": "DT_STRING_FORMULA",
+        "typeHash": "920cd243",
+        "offset": "488",
+        "flags": "1"
+    },
+    {
+        "name": "#0923b5fb",
+        "nameHash": "0923b5fb",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "520",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0e517f6f",
+        "nameHash": "0e517f6f",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "524",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "eHitSound",
+        "nameHash": "0ef298f3",
+        "type": "DT_ENUM",
+        "typeHash": "3d47bd2c",
+        "offset": "528",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "#04d7691e",
+        "nameHash": "04d7691e",
+        "type": "#3940c0fe",
+        "typeHash": "3940c0fe",
+        "offset": "532",
+        "flags": "1"
+    },
+    {
+        "name": "#001a5392",
+        "nameHash": "001a5392",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "544",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "#097eadb8",
+        "nameHash": "097eadb8",
+        "type": "DT_UINT",
+        "typeHash": "3d506d17",
+        "offset": "548",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "#05e1a52d",
+        "nameHash": "05e1a52d",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "552",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#03f1f0ff",
+        "nameHash": "03f1f0ff",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "556",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "eShapeshiftForm",
+        "nameHash": "041f8768",
+        "type": "DT_ENUM",
+        "typeHash": "3d47bd2c",
+        "offset": "560",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "arResourceCosts",
+        "nameHash": "0de3b427",
+        "type": "DT_VARIABLEARRAY",
+        "typeHash": "c166f35c",
+        "offset": "568",
+        "flags": "1",
+        "subtype": "PowerResourceCost",
+        "subtypeHash": "9bf9054e"
+    },
+    {
+        "name": "tHealthCost",
+        "nameHash": "0aadd503",
+        "type": "DT_STRING_FORMULA",
+        "typeHash": "920cd243",
+        "offset": "584",
+        "flags": "1"
+    },
+    {
+        "name": "tChargeCost",
+        "nameHash": "03426537",
+        "type": "DT_STRING_FORMULA",
+        "typeHash": "920cd243",
+        "offset": "616",
+        "flags": "1"
+    },
+    {
+        "name": "tMaxCharges",
+        "nameHash": "06645ad7",
+        "type": "DT_STRING_FORMULA",
+        "typeHash": "920cd243",
+        "offset": "648",
+        "flags": "1"
+    },
+    {
+        "name": "tRechargeTime",
+        "nameHash": "09335a24",
+        "type": "DT_STRING_FORMULA",
+        "typeHash": "920cd243",
+        "offset": "680",
+        "flags": "1"
+    },
+    {
+        "name": "tCooldownTime",
+        "nameHash": "06ccb688",
+        "type": "DT_STRING_FORMULA",
+        "typeHash": "920cd243",
+        "offset": "712",
+        "flags": "1"
+    },
+    {
+        "name": "#0b26a921",
+        "nameHash": "0b26a921",
+        "type": "DT_STRING_FORMULA",
+        "typeHash": "920cd243",
+        "offset": "744",
+        "flags": "1"
+    },
+    {
+        "name": "#086a6e05",
+        "nameHash": "086a6e05",
+        "type": "DT_STRING_FORMULA",
+        "typeHash": "920cd243",
+        "offset": "776",
+        "flags": "1"
+    },
+    {
+        "name": "bTargetGroundOnly",
+        "nameHash": "0bddddda",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "808",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0fc01065",
+        "nameHash": "0fc01065",
+        "type": "DT_ENUM",
+        "typeHash": "3d47bd2c",
+        "offset": "812",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "bWalksCloserIfOutOfRange",
+        "nameHash": "02ce4eb5",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "816",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0e65bc77",
+        "nameHash": "0e65bc77",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "820",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#067b65e9",
+        "nameHash": "067b65e9",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "824",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0a00c5eb",
+        "nameHash": "0a00c5eb",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "828",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#00fbccf7",
+        "nameHash": "00fbccf7",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "832",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#07cdc8cb",
+        "nameHash": "07cdc8cb",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "836",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#037d51de",
+        "nameHash": "037d51de",
+        "type": "DT_SNO",
+        "typeHash": "a4c45887",
+        "offset": "840",
+        "flags": "1",
+        "encodedBits": "32",
+        "snotype": "14"
+    },
+    {
+        "name": "#0be5487b",
+        "nameHash": "0be5487b",
+        "type": "DT_SNO",
+        "typeHash": "a4c45887",
+        "offset": "844",
+        "flags": "1",
+        "encodedBits": "32",
+        "snotype": "14"
+    },
+    {
+        "name": "#066bbae7",
+        "nameHash": "066bbae7",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "848",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#05efc45c",
+        "nameHash": "05efc45c",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "852",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0b9ffd91",
+        "nameHash": "0b9ffd91",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "856",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#04d9cc58",
+        "nameHash": "04d9cc58",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "860",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0950971c",
+        "nameHash": "0950971c",
+        "type": "DT_FLOAT",
+        "typeHash": "e65047ad",
+        "offset": "864",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "#079e716a",
+        "nameHash": "079e716a",
+        "type": "DT_FLOAT",
+        "typeHash": "e65047ad",
+        "offset": "868",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "#0ead9008",
+        "nameHash": "0ead9008",
+        "type": "DT_FLOAT",
+        "typeHash": "e65047ad",
+        "offset": "872",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "bCastTargetAllies",
+        "nameHash": "05e8d04e",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "876",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "bCastTargetEnemies",
+        "nameHash": "0b19b3fa",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "880",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#07095076",
+        "nameHash": "07095076",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "884",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#06007b9e",
+        "nameHash": "06007b9e",
+        "type": "DT_STRING_FORMULA",
+        "typeHash": "920cd243",
+        "offset": "888",
+        "flags": "1"
+    },
+    {
+        "name": "#00b9b985",
+        "nameHash": "00b9b985",
+        "type": "DT_STRING_FORMULA",
+        "typeHash": "920cd243",
+        "offset": "920",
+        "flags": "1"
+    },
+    {
+        "name": "#0bcdb405",
+        "nameHash": "0bcdb405",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "952",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#06e40571",
+        "nameHash": "06e40571",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "956",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0807540f",
+        "nameHash": "0807540f",
+        "type": "DT_STRING_FORMULA",
+        "typeHash": "920cd243",
+        "offset": "960",
+        "flags": "1"
+    },
+    {
+        "name": "#0e7fc6fa",
+        "nameHash": "0e7fc6fa",
+        "type": "DT_STRING_FORMULA",
+        "typeHash": "920cd243",
+        "offset": "992",
+        "flags": "1"
+    },
+    {
+        "name": "#0e96cf25",
+        "nameHash": "0e96cf25",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "1024",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0d8f7885",
+        "nameHash": "0d8f7885",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "1028",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#08d0166c",
+        "nameHash": "08d0166c",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "1032",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#01539714",
+        "nameHash": "01539714",
+        "type": "DT_FLOAT",
+        "typeHash": "e65047ad",
+        "offset": "1036",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "#0e9ac57a",
+        "nameHash": "0e9ac57a",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "1040",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#008b4e7a",
+        "nameHash": "008b4e7a",
+        "type": "DT_ENUM",
+        "typeHash": "3d47bd2c",
+        "offset": "1044",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "tAttackRadius",
+        "nameHash": "0b356214",
+        "type": "DT_STRING_FORMULA",
+        "typeHash": "920cd243",
+        "offset": "1048",
+        "flags": "1"
+    },
+    {
+        "name": "#03587b29",
+        "nameHash": "03587b29",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "1080",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#049a1799",
+        "nameHash": "049a1799",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "1084",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0a114e2b",
+        "nameHash": "0a114e2b",
+        "type": "DT_SNO",
+        "typeHash": "a4c45887",
+        "offset": "1088",
+        "flags": "1",
+        "encodedBits": "32",
+        "snotype": "29"
+    },
+    {
+        "name": "#00f70b0d",
+        "nameHash": "00f70b0d",
+        "type": "DT_ENUM",
+        "typeHash": "3d47bd2c",
+        "offset": "1092",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "#0e65d245",
+        "nameHash": "0e65d245",
+        "type": "DT_GBID",
+        "typeHash": "3d48a14d",
+        "offset": "1096",
+        "flags": "1",
+        "encodedBits": "32",
+        "snotype": "34"
+    },
+    {
+        "name": "#017dddfd",
+        "nameHash": "017dddfd",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "1100",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0d897ba6",
+        "nameHash": "0d897ba6",
+        "type": "#9794644b",
+        "typeHash": "9794644b",
+        "offset": "1104",
+        "flags": "1"
+    },
+    {
+        "name": "#04d3c3c1",
+        "nameHash": "04d3c3c1",
+        "type": "DT_ENUM",
+        "typeHash": "3d47bd2c",
+        "offset": "1216",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "#0d2e4b3e",
+        "nameHash": "0d2e4b3e",
+        "type": "DT_ENUM",
+        "typeHash": "3d47bd2c",
+        "offset": "1220",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "#06714077",
+        "nameHash": "06714077",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "1224",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "bRequiresActorTarget",
+        "nameHash": "02e90552",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "1228",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0805ebfc",
+        "nameHash": "0805ebfc",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "1232",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0b4ad6e7",
+        "nameHash": "0b4ad6e7",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "1236",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#006fdff1",
+        "nameHash": "006fdff1",
+        "type": "DT_ENUM",
+        "typeHash": "3d47bd2c",
+        "offset": "1240",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "#0ea58c49",
+        "nameHash": "0ea58c49",
+        "type": "DT_FLOAT",
+        "typeHash": "e65047ad",
+        "offset": "1244",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "#0692752d",
+        "nameHash": "0692752d",
+        "type": "DT_FLOAT",
+        "typeHash": "e65047ad",
+        "offset": "1248",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "#0eb84fbe",
+        "nameHash": "0eb84fbe",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "1252",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#053187f0",
+        "nameHash": "053187f0",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "1256",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0031e452",
+        "nameHash": "0031e452",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "1260",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#01de20c9",
+        "nameHash": "01de20c9",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "1264",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#04b139c0",
+        "nameHash": "04b139c0",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "1268",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0636a66b",
+        "nameHash": "0636a66b",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "1272",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0160bc26",
+        "nameHash": "0160bc26",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "1276",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0e0369f5",
+        "nameHash": "0e0369f5",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "1280",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#07a416a6",
+        "nameHash": "07a416a6",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "1284",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "arCCInfo",
+        "nameHash": "0d90ac45",
+        "type": "DT_FIXEDARRAY",
+        "typeHash": "8e594306",
+        "offset": "1288",
+        "flags": "1",
+        "subtype": "PowerCrowdControlInfo",
+        "subtypeHash": "146f0099",
+        "arrayLength": "14"
+    },
+    {
+        "name": "#06afae78",
+        "nameHash": "06afae78",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "2632",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "snoClassRequirement",
+        "nameHash": "014e8917",
+        "type": "DT_SNO",
+        "typeHash": "a4c45887",
+        "offset": "2636",
+        "flags": "513",
+        "encodedBits": "32",
+        "snotype": "74"
+    },
+    {
+        "name": "#091a7640",
+        "nameHash": "091a7640",
+        "type": "DT_SNO",
+        "typeHash": "a4c45887",
+        "offset": "2640",
+        "flags": "1",
+        "encodedBits": "32",
+        "snotype": "116"
+    },
+    {
+        "name": "snoItemRequirement",
+        "nameHash": "02037570",
+        "type": "DT_SNO",
+        "typeHash": "a4c45887",
+        "offset": "2644",
+        "flags": "513",
+        "encodedBits": "32",
+        "snotype": "73"
+    },
+    {
+        "name": "#01b291d6",
+        "nameHash": "01b291d6",
+        "type": "DT_SNO",
+        "typeHash": "a4c45887",
+        "offset": "2648",
+        "flags": "513",
+        "encodedBits": "32",
+        "snotype": "51"
+    },
+    {
+        "name": "#08382cdd",
+        "nameHash": "08382cdd",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "2652",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "bUsableInCombat",
+        "nameHash": "0f49838b",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "2656",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "bIsCraftItemName",
+        "nameHash": "0c2c995e",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "2660",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0744a4fd",
+        "nameHash": "0744a4fd",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "2664",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0a8611dd",
+        "nameHash": "0a8611dd",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "2668",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0365e3c2",
+        "nameHash": "0365e3c2",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "2672",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#083d96df",
+        "nameHash": "083d96df",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "2676",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#09aaab79",
+        "nameHash": "09aaab79",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "2680",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0b15bf7f",
+        "nameHash": "0b15bf7f",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "2684",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#08fe39cf",
+        "nameHash": "08fe39cf",
+        "type": "DT_UINT",
+        "typeHash": "3d506d17",
+        "offset": "2688",
+        "flags": "524289",
+        "encodedBits": "32"
+    },
+    {
+        "name": "#0ef10d9b",
+        "nameHash": "0ef10d9b",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "2692",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0ecb7a82",
+        "nameHash": "0ecb7a82",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "2696",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "arCollisionSettings",
+        "nameHash": "0f60c350",
+        "type": "DT_FIXEDARRAY",
+        "typeHash": "8e594306",
+        "offset": "2700",
+        "flags": "1",
+        "subtype": "CollisionSettings",
+        "subtypeHash": "b6c4d1fd",
+        "arrayLength": "2"
+    },
+    {
+        "name": "#04dca2e9",
+        "nameHash": "04dca2e9",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "2740",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#02e3cde8",
+        "nameHash": "02e3cde8",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "2744",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0fc20c9f",
+        "nameHash": "0fc20c9f",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "2748",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0a75e08a",
+        "nameHash": "0a75e08a",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "2752",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#089134c5",
+        "nameHash": "089134c5",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "2756",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "hIconNormal",
+        "nameHash": "02e9817a",
+        "type": "DT_UINT",
+        "typeHash": "3d506d17",
+        "offset": "2760",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "#0e060ad6",
+        "nameHash": "0e060ad6",
+        "type": "DT_UINT",
+        "typeHash": "3d506d17",
+        "offset": "2764",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "#0800dd5a",
+        "nameHash": "0800dd5a",
+        "type": "DT_UINT",
+        "typeHash": "3d506d17",
+        "offset": "2768",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "hIconInactive",
+        "nameHash": "00ba2924",
+        "type": "DT_UINT",
+        "typeHash": "3d506d17",
+        "offset": "2772",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "#00af8d69",
+        "nameHash": "00af8d69",
+        "type": "DT_UINT",
+        "typeHash": "3d506d17",
+        "offset": "2776",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "#005f0639",
+        "nameHash": "005f0639",
+        "type": "DT_UINT",
+        "typeHash": "3d506d17",
+        "offset": "2780",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "#0ca85a0a",
+        "nameHash": "0ca85a0a",
+        "type": "DT_GBID",
+        "typeHash": "3d48a14d",
+        "offset": "2784",
+        "flags": "1",
+        "encodedBits": "32",
+        "snotype": "23"
+    },
+    {
+        "name": "#0159fc50",
+        "nameHash": "0159fc50",
+        "type": "DT_UINT",
+        "typeHash": "3d506d17",
+        "offset": "2788",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "#0cecdfc8",
+        "nameHash": "0cecdfc8",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "2792",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#0210b5d5",
+        "nameHash": "0210b5d5",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "2796",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#01c331c3",
+        "nameHash": "01c331c3",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "2800",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#03f7ac9c",
+        "nameHash": "03f7ac9c",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "2804",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#036a68ce",
+        "nameHash": "036a68ce",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "2808",
+        "min": "0",
+        "max": "1",
+        "flags": "17",
+        "encodedBits": "1"
+    },
+    {
+        "name": "#08a74e60",
+        "nameHash": "08a74e60",
+        "type": "DT_VARIABLEARRAY",
+        "typeHash": "c166f35c",
+        "offset": "2816",
+        "flags": "1",
+        "subtype": "#6f71323a",
+        "subtypeHash": "6f71323a"
+    },
+    {
+        "name": "arBuffs",
+        "nameHash": "09a955e9",
+        "type": "DT_VARIABLEARRAY",
+        "typeHash": "c166f35c",
+        "offset": "2832",
+        "flags": "1",
+        "subtype": "PowerBuffDefinition",
+        "subtypeHash": "3fd70b39"
+    },
+    {
+        "name": "ptScriptFormulas",
+        "nameHash": "03fd5e42",
+        "type": "DT_VARIABLEARRAY",
+        "typeHash": "c166f35c",
+        "offset": "2848",
+        "flags": "1",
+        "subtype": "ScriptFormulaInfo",
+        "subtypeHash": "20e37537"
+    },
+    {
+        "name": "nFormulaCount",
+        "nameHash": "012c8cad",
+        "type": "DT_INT",
+        "typeHash": "a4c42e02",
+        "offset": "2864",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "arPayloads",
+        "nameHash": "08efedf0",
+        "type": "DT_VARIABLEARRAY",
+        "typeHash": "c166f35c",
+        "offset": "2872",
+        "flags": "1",
+        "subtype": "PowerPayloadDefinition",
+        "subtypeHash": "30754ce0"
+    },
+    {
+        "name": "arMods",
+        "nameHash": "0a7f6d26",
+        "type": "DT_VARIABLEARRAY",
+        "typeHash": "c166f35c",
+        "offset": "2888",
+        "flags": "1",
+        "subtype": "PowerMod",
+        "subtypeHash": "520c452d"
+    },
+    {
+        "name": "#0d6e35f3",
+        "nameHash": "0d6e35f3",
+        "type": "DT_SNO",
+        "typeHash": "a4c45887",
+        "offset": "2904",
+        "flags": "1",
+        "encodedBits": "32",
+        "snotype": "14"
+    },
+    {
+        "name": "#0cb067ec",
+        "nameHash": "0cb067ec",
+        "type": "DT_SNO",
+        "typeHash": "a4c45887",
+        "offset": "2908",
+        "flags": "1",
+        "encodedBits": "32",
+        "snotype": "14"
+    },
+    {
+        "name": "#0c5a8e20",
+        "nameHash": "0c5a8e20",
+        "type": "HardpointLink",
+        "typeHash": "d8f028b7",
+        "offset": "2912",
+        "flags": "1"
+    },
+    {
+        "name": "#03ff871b",
+        "nameHash": "03ff871b",
+        "type": "DT_FLOAT",
+        "typeHash": "e65047ad",
+        "offset": "2920",
+        "flags": "1",
+        "encodedBits": "32"
+    },
+    {
+        "name": "#090afe9c",
+        "nameHash": "090afe9c",
+        "type": "DT_VARIABLEARRAY",
+        "typeHash": "c166f35c",
+        "offset": "2928",
+        "flags": "1",
+        "subtype": "#0de01263",
+        "subtypeHash": "0de01263"
+    },
+    {
+        "name": "#0cd34118",
+        "nameHash": "0cd34118",
+        "type": "DT_VARIABLEARRAY",
+        "typeHash": "c166f35c",
+        "offset": "2944",
+        "flags": "1",
+        "subtype": "#c4e63b1f",
+        "subtypeHash": "c4e63b1f"
+    },
+    {
+        "offset": "2960",
+        "flags": "0"
+    }
+]

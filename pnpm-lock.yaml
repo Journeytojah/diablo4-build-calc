@@ -1,0 +1,13 @@
+lockfileVersion: 5.4
+
+specifiers:
+  convert-hex: ^0.1.0
+
+dependencies:
+  convert-hex: 0.1.0
+
+packages:
+
+  /convert-hex/0.1.0:
+    resolution: {integrity: sha512-w20BOb1PiR/sEJdS6wNrUjF5CSfscZFUp7R9NSlXH8h2wynzXVEPFPJECAnkNylZ+cvf3p7TyRUHggDmrwXT9A==}
+    dev: false
